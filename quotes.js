@@ -4,6 +4,42 @@ let localQuotes = [
         "author": "Edgar Allan Poe"
     },
     {
+        "text": "Most certainly, some planets are not inhabited, but others are, and among these there must exist life under all conditions and phases of development.",
+        "author": "Nikoli Tesla"
+    },
+    {
+        "text": "'Oh yes,' said the other mother. 'I put her in there myself. And when I found her trying to crawl, I put her back.'",
+        "author": "Neil Gaiman"
+    },
+    {
+        "text": "The last man on earth sat alone in a room. There was a knock on the door.",
+        "author": "Fredrik Brown"
+    },
+    {
+        "text": "Hell is empty and all the devils are here.",
+        "author": "William Shakespeare"
+    },
+    {
+        "text": "Last night I saw upon the stair A little man who wasn’t there. He wasn’t there again today. Oh, how I wish he’d go away.",
+        "author": "William Hughes Mearns"
+    },
+    {
+        "text": "",
+        "author": ""
+    },
+    {
+        "text": "From even the greatest of horrors irony is seldom absent.",
+        "author": "H. P. Lovecraft"
+    },
+    {
+        "text": "Almost nobody dances sober, unless they happen to be insane.",
+        "author": "H. P. Lovecraft"
+    },
+    {
+        "text": "The world is indeed comic, but the joke is on mankind.",
+        "author": "H. P. Lovecraft"
+    },
+    {
         "text": "All that we see or seem is but a dream within a dream.",
         "author": "Edgar Allan Poe"
     },
