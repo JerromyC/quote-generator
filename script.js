@@ -6,21 +6,19 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader');
 
-// Show that page is loading info
-function loading() {
+function showLoadingSpinner() {
     loader.hidden = false;
     quoteContainer.hidden = true;
 }
 
-// Hide loading
-function complete() {
+function removeLoadingSpinner() {
     quoteContainer.hidden = false;
     loader.hidden = true;
 }
 
 // Show New Quote
 function newQuote() {
-    loading();
+    showLoadingSpinner();
     // Pick a random quote from localQuotes array
     const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
     // Check for author and return 'Unkown" if so
@@ -37,7 +35,7 @@ function newQuote() {
     }
     // Set quote, Hide Loader
     quoteText.textContent = quote.text;
-    complete();
+    removeLoadingSpinner();
 }
 
 let twitterUrl = 'https://twitter.com/intent/tweet';
