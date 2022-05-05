@@ -24,10 +24,6 @@ let localQuotes = [
         "author": "William Hughes Mearns"
     },
     {
-        "text": "",
-        "author": ""
-    },
-    {
         "text": "From even the greatest of horrors irony is seldom absent.",
         "author": "H. P. Lovecraft"
     },
